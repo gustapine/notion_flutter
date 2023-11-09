@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:notion/screens/register_screen.dart';
 import 'package:notion/screens/welcome_screen.dart';
 
 void main() {
@@ -18,6 +19,8 @@ class MainApp extends StatelessWidget {
             initialRoute: '/',
             routes: {
               '/': (context) => const WelcomeScreen(),
+              '/register': (context) => const RegisterScreen(),
+              //'/main': (context) => const MainScree()
             },
           );
         }
