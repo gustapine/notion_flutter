@@ -12,7 +12,13 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
-      future: Firebase.initializeApp(),
+      future: Firebase.initializeApp(
+          options: const FirebaseOptions(
+              apiKey: "AIzaSyC68d_6qj4YPVuLEbeokQxqeVr_k9OFEjM",
+              appId: "1:286553667983:android:22f77a8256e3eff46cf3fa",
+              messagingSenderId:
+                  "1:286553667983:android:22f77a8256e3eff46cf3fa",
+              projectId: "notion-759c1")),
       builder: ((context, snapshot) {
         if (snapshot.connectionState == ConnectionState.done) {
           return MaterialApp(
