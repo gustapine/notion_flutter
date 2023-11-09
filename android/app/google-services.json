@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "286553667983",
+    "project_id": "notion-759c1",
+    "storage_bucket": "notion-759c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286553667983:android:22f77a8256e3eff46cf3fa",
+        "android_client_info": {
+          "package_name": "com.example.notion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC68d_6qj4YPVuLEbeokQxqeVr_k9OFEjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
